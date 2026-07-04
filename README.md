@@ -70,15 +70,16 @@ to **$400–$6,000** to remove obvious data-entry errors.
    (in Colab: *File → Open notebook → GitHub*, paste this repo's URL).
 2. Run the cells top to bottom. The first run uses **synthetic demo data** so you
    can see the whole pipeline work immediately.
-3. When you've filled in `data/template.csv` and committed it, switch the run cell
-   to your real data (instructions are in the notebook) and re-run.
+3. When you've added listings to `data/listings.csv` and committed them, switch the
+   run cell to your real data (instructions are in the notebook) and re-run.
+   (`data/template.csv` stays empty — it's just the schema example to copy.)
 
 ### Run it locally instead (optional)
 
 ```bash
 pip install -r requirements.txt
-python analysis/hedonic.py --demo                 # synthetic test run
-python analysis/hedonic.py --data data/template.csv   # your data
+python analysis/hedonic.py --demo                  # synthetic test run
+python analysis/hedonic.py --data data/listings.csv   # your collected data
 ```
 
 ## Reproducibility

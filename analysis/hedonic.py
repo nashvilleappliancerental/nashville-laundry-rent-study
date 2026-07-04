@@ -30,7 +30,7 @@ import pandas as pd
 import statsmodels.formula.api as smf
 
 # --- Configuration -----------------------------------------------------------
-DEFAULT_DATA = "data/template.csv"
+DEFAULT_DATA = "data/listings.csv"  # collected data; template.csv stays an empty schema example
 RENT_MIN, RENT_MAX = 400, 6000  # trim implausible rents (data-entry errors)
 KEY_FIELDS = ["rent", "bedrooms", "bathrooms", "sqft", "property_type", "area", "laundry"]
 VALID_PROPERTY = {"apartment", "condo", "townhome", "house"}

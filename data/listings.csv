@@ -1,0 +1,7 @@
+listing_id,rent,bedrooms,bathrooms,sqft,property_type,area,laundry,date_collected,source
+hickory-highlands-a4,1082,1,1,728,apartment,Southeast/Antioch,hookups,2026-07-03,Apartments.com
+nashboro-ns1301,1015,1,1,672,apartment,Southeast/Antioch,in_unit,2026-07-03,Apartments.com
+nashboro-a2-hillside,1242,1,1,700,apartment,Southeast/Antioch,in_unit,2026-07-03,Apartments.com
+charlotte-pike-6430,1389,2,1.5,925,apartment,West Nashville,in_unit,2026-07-03,Apartments.com
+harding-pl-380,1239,1,1,710,apartment,South Nashville,in_unit,2026-07-03,Apartments.com
+antioch-pike-100,1440,2,2,1089,apartment,South Nashville,in_unit,2026-07-03,Apartments.com

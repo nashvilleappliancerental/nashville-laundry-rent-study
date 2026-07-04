@@ -1,6 +1,7 @@
 # Data dictionary
 
-Collect one row per advertised listing into `template.csv`. Fill every column.
+Collect one row per advertised listing into `listings.csv` (copy the header from
+`template.csv`, which stays empty as the schema example). Fill every column.
 Rows missing any of the key fields (rent, bedrooms, bathrooms, sqft,
 property_type, area, laundry) are dropped during cleaning.
 
