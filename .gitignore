@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated chart images (regenerated from data)
+charts/*.png
